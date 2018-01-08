@@ -16,7 +16,7 @@ body {
 
 /* --- logo --- */
 .site-logo {	
-	margin-top:40px;
+	/* margin-top:40px; */
 }
 
 .site-logo a.brand {
@@ -32,9 +32,12 @@ body {
 }
 
 /* ------- Navigation ------------ */
-
+#navigation{
+	height:100px;
+}
 .navbar {
-    margin-bottom: 0;
+	margin-bottom: 0;
+	background-color: #ccc9c9;
 }
 
 .navbar-brand {
